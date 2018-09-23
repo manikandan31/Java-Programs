@@ -17,6 +17,7 @@ public class DuplicateElement {
 			}
 		}
 		
+		
 		System.out.println("--------------------------------------------------");
 		Set <String> store = new HashSet<String>();
 		
