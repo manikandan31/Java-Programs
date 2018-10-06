@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('Compile') {
       steps {
+        tool 'Java'
         echo 'Java Compile Stage'
+        bat 'java -version'
         bat 'javac MissingNumber.java'
       }
     }
